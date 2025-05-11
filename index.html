@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Python Developer</p>
+            <h1>Hi, I'm <span>Navyshree N</span><br>from Bengaluru</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi, I’m Navyashree — a passionate 3rd-year Computer Science Engineering student at AMC Engineering College, consistently maintaining a 9+ SGPA. I'm an AWS Certified Cloud Practitioner, driven by curiosity, confidence, and a relentless pursuit of growth.
+                   
+                    My technical journey encompasses proficiency in Python, Data Structures & Algorithms, Full Stack Development, and Data Science. I've completed impactful internships at EliteTech, Intern Oasis Infobyte, and Prodigy Infotech, where I translated academic knowledge into practical solutioons 
+                    
+                    Beyond academics, I've been recognized among the Top 10 in 3 ideathons and 2 hackathons, reflecting my innovative problem-solving skills. A highlight of my academic endeavors includes presenting a research paper at an international conference, earning the Best Presented Paper Award
+                    
+                    Currently, I'm undertaking a 100 Days of Python (Professional-Level Coding Challenge), continually pushing my boundaries. My strengths lie in my unwavering confidence, effective communication, and a proactive approach to challenges.
+                    
+                    I'm eager to connect with like-minded professionals and explore opportunities that allow me to contribute and grow in the tech realm..</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br>python,c </li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>data Science </span><br>done with internship and projects </li>
+                        <li><span>Version control</span> </span><br>Git &Github </li>
+                        <li><span>Cloud Computing</span> </span><br>AWS,Azure </li>
+                        <li><span>web design</span> </span><br>HTML,CSS,Javascript </li>
+                        <li><span>fullstack</span> </span><br>React,Angular,Vue,Node.js,MongoDB,Bootstrap </li>
+                        <li><span>datascience </span> </span><br>python,pandas,Numpy,TensorFlow,ML and Deeplearning </li>
+                        <li><span>Data Visualisation</span> </span><br>matplotlib,seaborn </li>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Currently open for internships.</span><br>building my skills with udemy 100 days proffesional coding challenge along with DSA in python crash course.</li>
+                        <li><span>1 april 2025-1 may 2025</span><br>one month fullstack internship at mindshift technologies</li>
+                        <li><span>10 march 2025 -15 april 2025</span><br>star performer in 1 month AICTE OIB-SIP Internship in datascience</li>
+                        <li><span>3 march 2025-17-april 2025</span><br>6 week internship as datascience intern at Elitetech</li>
+                        <li><span>january 2025-March 2025</span><br>completed 10 weeks Cybersecurity Virtual internship provided by paloalto networks.</li>
+                        <li><span>july 2024-september 2024</span><br>completed 10 weeks cloud virtual internship provided by AWS academy</li>
+                        <li><span>april 2024-June 2024</span><br>completed 10 weeks Android developer virtual internship provided by Google for developers</li>
+                        <li><span>1 july 2024-31 july 2024</span><br>One month complete hands on online Datasceince Internship at prodigy Infotech .</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022-2026</span><br>currently pursuing B.E in CSE at AMC Engineering college @VTU with 9.5 cgpa</li>
+                        <li><span>2020-2022</span><br>Girls Independent PU College Sagara .pre university with 89.98%</li>
+                        <li><span>2018-2020</span><br>govt High School maruthipura graduated Highschool with 94.24%.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web developement</h2>
+                <p>As a Fullstack WebDeveloper, I specialize in creating dynamic and responsive websites that enhance user experience. I am skilled in using modern front-end and back-end technologies to build clean, functional, and interactive web applications. My focus is on creating websites that are not only aesthetically pleasing but also optimized for performance and usability.</p>
+            
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>data-Science-ML</h2>
+                <p>I offer data-driven solutions by transforming raw data into actionable insights using data science and machine learning techniques. Whether it's building predictive models, analyzing large datasets, or creating machine learning pipelines, I bring value by turning data into solutions that drive informed decision-making and business growth.</p>
+
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>UI-UX Design</h2>
+                <p>Proficient in creating user interfaces (UI) that are visually appealing, intuitive, and easy to navigate.
+                    Experience in designing user experiences (UX) that ensure users have seamless interactions with the apps
+                    Ability to conduct user research, develop wireframes, and create prototypes for testing and feedback.
+                    Knowledge of design principles such as alignment, contrast, proximity, and balance to create aesthetically pleasing and functional designs.</p>
+                
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Promt Engineer</h2>
+                <p>proficeincy in offset,flexo,and digital printing processes with hands on experience in color management and workflow automation.</p>
+                
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Automation Testing</h2>
+                <p>basic knowledge along with internship experience in a startup harali infotech about the automation testingi specialize in tools like selenium,pytest,and postman to ensure robust and effeicent software delivery.</p>
+                
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>python Developer</h2>
+                <p>I’m a Python developer with hands-on experience in building web apps, automation scripts, and data-driven solutions. Skilled in frameworks like Flask, Django, and Pandas, I create clean, scalable code. I’ve developed APIs, automated workflows, and built tools that improved productivity by over 40%..</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Learn-smart:AI Enhanced learning and career hub for engineering students</h3>
+                    <p>Founder-created a portal offering free curated courses interveiw prep materials and internship listing for students.available in playstore.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>AI-Powered smart navigation system for visually impaired</h3>
+                    <p>this project is an assistive navigation system designed for empower visually impaired indivisuals.especially in tourist location. </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Predictive Maintenance of Industrial equipement using TGNN</h3>
+                    <p>Developed a predictive Maintenance system for industrial equipement using TGNN to model interactions between components and forecast failures.built ML model using pytorch Geometric DGL.processing time series data and performed feature engineering.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-4.png">
+                <div class="layer">
+                    <h3>Energize 2.0 ac-dc hybrid leap for EV evolution. </h3>
+                    <p>this project is designed to revolutionize ev's by enhancing their range and effeiciency.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-5.png">
+                <div class="layer">
+                    <h3>waste-not wizard your smart hub for zero waste </h3>
+                    <p>this project is mainly formed to address real world issues in daily household 1.3 billion tons food waste annually.our product smarttrack everything and acheive sustainibility .</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> @navyashreensgr.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 8660188652</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/navya_shetty10?igsh=cW85NTNoZ2cwb3hl"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/navyashree-n-7bbab2280"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©Navyashree N. Made wtih <i class="fas fa-heart"></i> by <a href="navyashreensgr@gmail.com"></a></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyFQXIrmmBa4yJfiZ6kMwPCK2T1kFqJs9Qr1pbHhSHKqrNbkvzk3ADY98NKVxoofHsw/exec' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
