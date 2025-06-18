@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWE5ZzJ6cjZ0czA0M2psZ3JycG5hN3ZwdWtsYW53cWwwZ3BnaXg4eiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZnRzJnNjPWFsbCZ0cm49ZmFsc2U/juJTR9oK24QWn0rS95/giphy.gif" width="150px" alt="Portfolio GIF">
+
   <h1>Navyashree's Personal Portfolio Website</h1>
   <p>Showcasing My Journey as a Full-Stack ML Engineer</p>
 </div>
